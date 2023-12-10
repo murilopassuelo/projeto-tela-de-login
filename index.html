@@ -6,13 +6,15 @@
     <title>Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/outras-midias.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-               <img src="imagens/img-login.jpg" alt="img-login">
+             <!-- A imagem já está inserida nas CSS -->
             </div>
+
             <div id="formulario">
                  <h1>Login</h1>
                  <p id="pfomulario">Seja bem-vindo(a) novamente. Faça o login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
@@ -22,7 +24,7 @@
                     <div class="campo">
 
                         <label for="idusuario"><span class="material-symbols-outlined">person</span></label>
-                        <input type="text" name="usuario" id="idusuario" autocomplete="email" maxlength="30" minlength="10" required>
+                        <input type="text" name="usuario" id="idusuario" autocomplete="email" maxlength="30" minlength="10" placeholder="Digite seu e-mail" required>
 
                     </div>
 
@@ -30,7 +32,7 @@
 
                     <div class="campo">
 
-                        <label for="idsenha"><span class="material-symbols-outlined">vpn_key</span></label> <input type="password" name="senha" id="idsenha" autocomplete="current-password" minlength="8" maxlength="17" required>
+                        <label for="idsenha"><span class="material-symbols-outlined">vpn_key</span></label> <input type="password" name="senha" id="idsenha" autocomplete="current-password" minlength="8" maxlength="17" placeholder="Digite sua senha" required>
                         
                     </div>
 
